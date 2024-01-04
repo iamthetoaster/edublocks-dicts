@@ -1,5 +1,5 @@
 <category name="Dictionaries" colour="#15bad4" css-icon="customIcon fad fa-book-open-cover">
-    <label text="Dictionary methods"></label>
+    <label text="Dictionaries"></label>
 
     <block type="dict_constructor"></block>
 </category>
