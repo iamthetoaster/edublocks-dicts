@@ -1,6 +1,6 @@
 const dictionaryColor = "#15bad4";
 
-Blockly.Blocks["dict_constructor"] = {
+Blockly.Blocks['dict_constructor'] = {
     init: function() {
         this.appendDummyInput()
             .appendField("dict()");
