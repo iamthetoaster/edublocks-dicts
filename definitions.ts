@@ -4,7 +4,7 @@ Blockly.Blocks["dict_constructor"] = {
     init: function() {
         this.appendDummyInput()
             .appendField("dict()");
-        this.setOutput(true, null);
+        this.setOutput(true, 'Dictionary');
         this.setColour(dictionaryColor);
     }
 };
