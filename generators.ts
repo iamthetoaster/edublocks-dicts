@@ -14,5 +14,5 @@ Blockly.Python['dict_brackets_equals'] = function(block) {
     const dict_name = Blockly.Python.nameDB_.getName(block.getFieldValue('dict_name'), Blockly.VARIABLE_CATEGORY_NAME);
     const parameters = Blockly.Python.valueToCode(block, 'parameters', 0);
     const code = `${dict_name}[${parameters}] = ()\n`;
-    return [code, 0];
+    return code;
 };
