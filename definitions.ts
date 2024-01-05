@@ -8,3 +8,17 @@ Blockly.Blocks['dict_constructor'] = {
         this.setColour(dictionaryColor);
     }
 };
+
+Blockly.Blocks['dict_brackets'] = {
+    init: function() {
+        this.appendDummyInput()
+            .appendField(new Blockly.FieldVariable("variable_name"), "dict_name")
+            .appendField("[");
+        this.appendValueInput("parameters")
+            .setCheck(null);
+        this.appendDummyInput()
+            .appendField("]");
+        this.setOutput(true, null);
+        this.setColour(dictionaryColor);
+    }
+};

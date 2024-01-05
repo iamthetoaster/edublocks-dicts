@@ -2,4 +2,17 @@
     <label text="Dictionaries"></label>
 
     <block type="dict_constructor"></block>
+
+    <block type="dict_brackets">
+        <value name="parameters">
+            <shadow type="parameters">
+                <mutation color="#4a4b5f" items="1" limit="1" inputType="string" />
+                <value name="key">
+                    <shadow type="inline_string">
+                        <field name="value">Key</field>
+                    </shadow>
+                </value>
+            </shadow>
+        </value>
+    </block>
 </category>
