@@ -15,4 +15,17 @@
             </shadow>
         </value>
     </block>
+
+    <block type="dict_brackets_equals">
+        <value name="parameters">
+            <shadow type="parameters">
+                <mutation color="#129eb4" items="1" limit="1" inputType="string" />
+                <value name="key">
+                    <shadow type="inline_string">
+                        <field name="value">Key</field>
+                    </shadow>
+                </value>
+            </shadow>
+        </value>
+    </block>
 </category>

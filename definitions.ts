@@ -22,3 +22,18 @@ Blockly.Blocks['dict_brackets'] = {
         this.setColour(dictionaryColor);
     }
 };
+Blockly.Blocks['dict_brackets_equals'] = {
+    init: function() {
+        this.appendDummyInput()
+            .appendField(new Blockly.FieldVariable("variable_name"), "dict_name")
+            .appendField("[");
+        this.appendValueInput("parameters")
+            .setCheck(null);
+        this.appendDummyInput()
+            .appendField("] = ()");
+        this.setInputsInline(true);
+        this.setPreviousStatement(true, null);
+        this.setNextStatement(true, null);
+        this.setColour(dictionaryColor);
+    }
+};
