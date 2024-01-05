@@ -32,7 +32,7 @@ Blockly.Blocks['dict_brackets_equals'] = {
             .setCheck(null);
         this.appendDummyInput()
             .appendField("] = ");
-        this.appendValueInput("value")
+        this.appendValueInput("val")
             .setCheck(null);
         this.setInputsInline(true);
         this.setPreviousStatement(true, null);

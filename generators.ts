@@ -13,7 +13,7 @@ Blockly.Python['dict_brackets'] = function(block) {
 Blockly.Python['dict_brackets_equals'] = function(block) {
     const dict_name = Blockly.Python.nameDB_.getName(block.getFieldValue('dict_name'), Blockly.VARIABLE_CATEGORY_NAME);
     const key = Blockly.Python.valueToCode(block, 'key', 0);
-    const value = Blockly.Python.valueToCode(block, 'value', 0);
-    const code = `${dict_name}[${key}] = ${value}\n`;
+    const val = Blockly.Python.valueToCode(block, 'val', 0);
+    const code = `${dict_name}[${key}] = ${val}\n`;
     return code;
 };

@@ -27,7 +27,7 @@
                 </value>
             </shadow>
         </value>
-        <value name="value">
+        <value name="val">
             <shadow type="parameters">
                 <mutation color="#129eb4" items="1" limit="1" inputType="text" />
                 <value name="input_2">
