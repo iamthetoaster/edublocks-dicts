@@ -28,10 +28,12 @@ Blockly.Blocks['dict_brackets_equals'] = {
         this.appendDummyInput()
             .appendField(new Blockly.FieldVariable("variable_name"), "dict_name")
             .appendField("[");
-        this.appendValueInput("parameters")
+        this.appendValueInput("key")
             .setCheck(null);
         this.appendDummyInput()
-            .appendField("] = ()");
+            .appendField("] = ");
+        this.appendValueInput("value")
+            .setCheck(null);
         this.setInputsInline(true);
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
