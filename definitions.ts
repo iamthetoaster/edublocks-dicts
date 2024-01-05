@@ -22,6 +22,7 @@ Blockly.Blocks['dict_brackets'] = {
         this.setColour(dictionaryColor);
     }
 };
+
 Blockly.Blocks['dict_brackets_equals'] = {
     init: function() {
         this.appendDummyInput()
