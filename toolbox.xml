@@ -7,7 +7,7 @@
         <value name="parameters">
             <shadow type="parameters">
                 <mutation color="#129eb4" items="1" limit="1" inputType="string" />
-                <value name="key">
+                <value name="input_1">
                     <shadow type="inline_string">
                         <field name="value">Key</field>
                     </shadow>
@@ -20,7 +20,7 @@
         <value name="parameters">
             <shadow type="parameters">
                 <mutation color="#129eb4" items="1" limit="1" inputType="string" />
-                <value name="key">
+                <value name="input_1">
                     <shadow type="inline_string">
                         <field name="value">Key</field>
                     </shadow>
